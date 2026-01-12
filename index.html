@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+<!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+  <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+ <body>
+
+    <!-- banner section start here -->
+     <section id="banner">
+        <img src="Assests/ticket-percent (1).png" alt="">
+        <p>30% off storewide - Limited time!</p>
+        <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        <i class="fa-solid fa-xmark"></i>
+     </section>
+    <!-- banner section ends here -->
+
+     <!-- header section start here -->
+      <header>
+        <div class="logo-container">
+            <i class="fa-solid fa-bars" onclick="showOverlay()"></i>
+            <a href="#" class="logo">3lgent.</a>
+        </div>
+
+        <nav>
+            <ul>
+      <li><a href="./index.html" class="active">Home</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./product.html">Product</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+        <div class="cart-container">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="cart-circle">2</div>
+        </div>
+        </div>
+      </header>
+    <!-- header section ends here -->
+
+      
+      
+    <!-- hero section start here -->
+      <section id="hero">
+        <div class="img-container">
+            <img src="./Assests/Paste image.jpg" alt="">
+        </div>
+        <div class="hero-content">
+            <h2>Simply Unique / Simply Better</h2>
+            <p>
+                3legant is a gift & decorations store based in HCMC,Vietnam. Est since 2019.
+            </p>
+        </div>
+      </section>
+    <!-- hero section ends here -->
+
+      
+      
+    <!-- category section start here -->
+       <section id="category">
+        <div class="left-img-container">
+            <img src="./Assests/category-1.jpg" alt="">
+        </div>
+        <div class="right-img-container">
+            <div><img src="./Assests/category-2.jpg" alt=""></div>
+            <div><img src="./Assests/category-3.jpg" alt=""></div>
+        </div>
+       </section>
+    <!-- category section ends here -->
+
+      
+      
+    <!-- <product-slider start here -->
+        <section id="product-slider">
+          <div class="product-slider-header">
+            <h2>New Arrival</h2>
+            <a href="#">More Products <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="slider-container">
+            <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img1.jpg" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Loveseat Sofa</p>
+
+                <div class="price">
+                  <span>$199.00</span> &nbsp; &nbsp; &nbsp; <del>$400.00</del>
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img2.jpg" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Table Lamp</p>
+
+                <div class="price">
+                  <span>$24.99</span>
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img3.png" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Beige Table Lamp</p>
+
+                <div class="price">
+                  <span>$24.99</span> 
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img4.png" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Bamboo basket</p>
+
+                <div class="price">
+                  <span>$24.99</span> 
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img5.jpg" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Toasted</p>
+
+                <div class="price">
+                  <span>$224.99</span>
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-card">
+              <div class="img-container">
+                <img src="./Assests/img1.jpg" alt="">
+                
+                <button id="btn-cart">Add to cart</button>
+                
+                <div class="heart-circle">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="tag-container">
+                  <span id="new">NEW</span>
+                  <span id="dis">-50%</span>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Loveseat Sofa</p>
+
+                <div class="price">
+                  <span>$199.00</span> &nbsp; &nbsp; &nbsp; <del>$400.00</del>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+    <!-- product-slider ends here -->
+
+       
+       
+    <!-- feature section start here -->
+        <section id="feature">
+          <div class="feature-card">
+            <i class="fa-solid fa-truck-fast"></i>
+           <div>
+            <p>Free Shipping</p>
+            <span>Order above $200</span>
+           </div>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-money-bill-1-wave"></i>
+           <div>
+            <p>Money-back</p>
+            <span>30 days guarantee</span>
+           </div>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-lock"></i>
+           <div>
+            <p>Secure Payments</p>
+            <span>Secured by Stripe</span>
+           </div>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-phone-volume"></i>
+           <div>
+            <p>24/7 Support</p>
+            <span>Phone and Email support</span>
+           </div>
+          </div>
+
+        </section>
+    <!-- feature section ends here -->
+
+
+
+    <!-- sale banner section start here -->
+        <section id="sale-banner">
+          <div class="img-container">
+            <img src="./Assests/sale-banner.jpg" alt="">
+          </div>
+          <div class="banner-content-container">
+            <div class="banner-content">
+              <span>SALE UP TO 35% OFF</span>
+              <h2>HUNDREDS of New lower prices!</h2>
+              <p>It’s more affordable than ever to give every room in your home a stylish makeover</p>
+              <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </section>
+    <!-- sale banner section ends here -->
+
+
+
+    <!-- article section start here -->
+        <section id="article">
+      <div class="article-header">
+        <h2>Articles</h2>
+        <a href="#">More Article <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="article-card-container">
+        <div class="card">
+          <div class="img-container">
+            <img src="./Assests/article-img1.png" alt="">
+          </div>
+
+          <div class="card-content">
+            <p>7 ways to decor your home</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+         <div class="card">
+          <div class="img-container">
+            <img src="./Assests/article-img2.png" alt="">
+          </div>
+
+          <div class="card-content">
+            <p>Kitchen organization</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+         <div class="card">
+          <div class="img-container">
+            <img src="./Assests/article-img3.png" alt="">
+          </div>
+
+          <div class="card-content">
+            <p>Decor your bedroom</p>
+            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      
+      </div>
+        </section>
+    <!-- article section ends here -->
+
+    <!-- end image starts here -->
+<section class="end-img">
+    <img src="./Assests/end-image.png" alt="">
+    <div class="email">
+        <div class="heading-section">
+            <h2>Join Our Newsletter</h2>
+            <p>Sign up for deals, new products and promotions</p>
+        </div>
+        <div class="email-section">
+            <div class="mail">
+                <i class="fa-regular fa-envelope"></i>
+               <span>Email address</span>
+            </div>
+            <span>Signup</span>
+        </div>
+    </div>
+</section>
+<!-- end image starts here -->
+
+
+    <!-- footer section start here -->
+        <section id="footer">
+          <div class="footer-top">
+            <div class="footer-top-left">
+              <a href="#">3legant.</a>
+              <div class="pipe"></div>
+              <p>Gift & Decoration Store</p>
+            </div>
+
+            <ul class="footer-top-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <p>Copyright © 2023 3legant. All rights reserved</p>
+
+              <div class="privacy">
+              <span>Privacy Policy</span>
+              <span>Terms of Use</span>
+              </div>
+            </div>
+
+            <div class="footer-bottom-right">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </section>
+    <!-- footer section ends here -->
+
+    <script>
+      const container = document.querySelector(".logo-container");
+
+      function showOverlay(){
+        container.style.top = "0";
+      }
+    </script>
+
+
+    
+  </body>
+</html>
